@@ -1,0 +1,77 @@
+body{
+  background-color: black;
+  margin:0px ;
+  padding:0px;
+}
+h1{
+  color:rgb(167, 164, 160); 
+      font-family:cursive;
+       font-style :italic;
+       font-size:200%;
+}
+.header {
+  overflow: hidden;
+  background-color: transparent;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.navbar{
+    width: 90%;
+   text-align:center;
+    overflow: visible;
+    font-family: cursive;
+    margin:0px auto;
+     list-style:none;
+  }
+  @viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  } 
+  @media screen and (min-width:320px) and (max-width:640px) {
+     
+  }
+
+  .navbar a {
+    float: left;
+    display:block;
+    text-align:center;
+    font-size: 30px;
+    color: navy;
+    padding: 14px 16px;
+    text-decoration-style:solid;
+     text-decoration:none;
+  }
+  nav a:link {color:black;}
+nav a:visited {color:black;}
+
+.navbar a:hover {
+          background-color:blue;
+      }
+
+
+
+.paragraph{
+  color: white;
+  margin:0px auto;
+} 
+.para{
+  font-family:Courier;
+  color: white;
+}
+.footer{
+  text-align: center;
+  height:80px;
+  width:80;
+  left:5%;
+  margin-top: 10px;
+  background-color:navy;
+  color:white;
+  font-family:cursive;
+  font-style:italic;
+  font-size:90%;
+}
